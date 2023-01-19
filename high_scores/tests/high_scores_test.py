@@ -10,7 +10,8 @@ class HighScoresTest(unittest.TestCase):
     # Tests
 
     # Test latest score (the last thing in the list)
-
+    def test_latest_score_is_right(self):
+        
     # Test personal best (the highest score in the list)
 
     # Test top three from list of scores
@@ -22,4 +23,3 @@ class HighScoresTest(unittest.TestCase):
     # Test top three when there are less than three
 
     # Test top three when there is only one
-    
